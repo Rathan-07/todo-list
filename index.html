@@ -1,0 +1,36 @@
+  <!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class = "pos_left">My To Do list </h1>
+    <div class="inputField">
+      <input type="text" placeholder="Title....">
+      <button name="add" type="Add" value="HTML">Add</button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+     <li>Buy a new gaming laptops<span><i class="fas fa-trash"></i></span></li> 
+     <li>Buy a new car<span><i class="fas fa-trash"></i></span></li> 
+     <li>Buy a new pen<span><i class="fas fa-trash"></i></span></li> 
+     <li>Buy a new bike<span><i class="fas fa-trash"></i></span></li> 
+    </ul>
+    <div class="footer">
+     <!-- <span>you have 4 pending tasks</span> -->
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
